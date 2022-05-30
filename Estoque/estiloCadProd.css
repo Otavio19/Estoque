@@ -1,0 +1,70 @@
+:root{
+	--cinza-escuro: #3e484f;
+	--verde:  #5CE68F;
+	--cinza: #ebebeb;
+	--cinza-claro: #f1ecec;
+	--cimento: #35566B;
+	--verde-agua: #3AAB9C;
+}
+
+body
+{
+	background: var(--cinza-claro);
+}
+
+.content
+{
+	width: 70%;
+	margin: 5rem auto;
+	background: var(--verde);
+	padding: 2rem;
+}
+
+.txtCad
+{
+	display: inline-block;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	font-size: 1.2rem;
+	padding-left: 1rem;
+	width: 30rem;
+}
+
+.config
+{
+	margin: 1rem auto 1rem;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+button
+{
+	border: none;
+	background: var(--verde-agua);
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+}
+
+.inpt
+{
+	position: relative;
+}
+
+.movimentacao
+{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	font-size: 1.2rem;
+	padding-left: 1rem;
+	width: 10rem;
+}
+
+.btnSalvar
+{
+	display: block;
+	margin-top: 2rem;
+}
